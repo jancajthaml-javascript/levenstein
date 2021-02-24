@@ -1,0 +1,30 @@
+{
+  "name": "levenstein",
+  "version": "1.0.0",
+  "description": "Levenstein string distance",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "contributors": [
+    {
+      "name": "Jan Cajthaml",
+      "email": "jan.cajthaml@gmail.com",
+      "url": "https://github.com/jancajthaml"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-junit": "^3.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testResultsProcessor": "jest-junit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jancajthaml-javascript/levenstein.git"
+  }
+}
